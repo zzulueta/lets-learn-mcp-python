@@ -25,24 +25,23 @@ If you haven't already set up your python environment:
 - Provides comprehensive Python development support
 - Includes IntelliSense, debugging, and virtual environment management
 
-### 2.1.4. Install UV
+### 2.1.4. Create Virtual Environment
+
+```bash
+# Using venv (recommended)
+python -m venv .venv
+
+# Activate on macOS/Linux
+source .venv/bin/activate
+
+# Activate on Windows
+.venv\Scripts\activate
+```
+### 2.1.5. Install UV
 To install UV, run the following command in the terminal:
 
 ```bash
 pip install uv 
-```
-
-### 2.1.5. Create Virtual Environment
-
-```bash
-# Using venv (recommended)
-python -m venv mcp-env
-
-# Activate on macOS/Linux
-source mcp-env/bin/activate
-
-# Activate on Windows
-mcp-env\Scripts\activate
 ```
 
 ### 2.1.6. Install packages 
